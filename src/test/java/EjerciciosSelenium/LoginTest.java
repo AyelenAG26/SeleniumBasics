@@ -41,11 +41,7 @@ public class LoginTest {
         WebElement errortxt=driver.findElement(By.xpath(" //p[@class='error']"));
         System.out.println(errortxt.getText());
 
-
-
-
         Thread.sleep(3000);
-
         driver.quit();
 
 

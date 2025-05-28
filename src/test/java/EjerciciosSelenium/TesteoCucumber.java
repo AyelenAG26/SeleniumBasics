@@ -12,7 +12,6 @@ public class TesteoCucumber {
         WebElement countxt=driver.findElement(By.xpath("//h4[contains(text(),'Cucumber')]/../div[@class='stepper-input']/input"));
         WebElement addbtn=driver.findElement(By.xpath("//h4[contains(text(),'Cucumber')]/../div[@class='stepper-input']/a[@class='increment']"));
 
-
         addbtn.click();
         Thread.sleep(1000);
         addbtn.click();
